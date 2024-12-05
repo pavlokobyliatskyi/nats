@@ -1,0 +1,21 @@
+{
+  "name": "nats",
+  "version": "1.0.0",
+  "scripts": {
+    "publisher:serve": "npx -y ts-node publisher.ts",
+    "consumer:serve": "npx -y ts-node consumer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nats": "^2.28.2",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.7.2"
+  }
+}
